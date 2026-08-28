@@ -38,7 +38,23 @@ Quelle: [Kitchn — Strawberries & Cream French Toast Casserole](https://www.the
 Quelle: [Kitchn — Make-Ahead Baked Greek Omelet](https://www.thekitchn.com/make-ahead-baked-greek-omelet-248317)
 - Eier + Feta + Tomaten + Oliven in der Form, backen — 10 Min Vorbereitung, kommt in den Ofen, während alle wach werden.
 
-### 6. Popcorn + Nachos (Abends, "Last Hour"-Snacks) 🍿
+### 6. Gesunde Snacks (immer griffbereit) 🥕
+Quellen: [Einfach Tasty — 10 gesunde Gaming-Snacks](https://www.einfach-tasty.de/food-hacks/gaming-snacks-gesunde-liste-food-tipps-einfach-tasty-93320862.html) · [GamePro — 7 Snacks ideal zum Zocken](https://www.gamepro.de/artikel/gesund-essen-beim-zocken,3410320.html) · [Friends Game Night — Healthy Snack Options](https://friendsgamenight.com/healthy-snack-options-for-your-game-night/)
+
+- **Gemüsesticks + Hummus**: Karotte, Gurke, Paprika, Kohlrabi, Sellerie schneiden (Do vorbereiten, im Wasserbad frisch halten) — knusprig, kein Fett, hält wach
+- **Nüsse ungesalzen** (Cashews, Mandeln, Walnüsse): langsame Energie, kein Zucker-Crash — Schälchen überall hinstellen
+- **Obst**: Trauben, Beeren, Melonenwürfel, Apfelspalten — süß + hydriert. Melone = 90% Wasser 💧
+- **Edamame** (gedämpft, grob gesalzen): Protein-Kick, macht satt, macht Spaß
+- **Griechischer Joghurt + Honig + Nüsse** (kleine Cups): Protein, kalte Süße
+- **Reiswaffeln + Erdnussbutter**: knusprig, zuckerarm
+- **Käsewürfel + Oliven**: herzhaft, sättigt
+- **Energiebällchen** (Datteln + Haferflocken + Kakao + Nüsse im Mixer, kalt stellen): 10 Min Arbeit, besser als jeder Riegel
+- **Geröstete Kichererbsen** (Ofen, Paprika/Kreuzkümmel): knusprige Protein-Alternative zu Chips
+- **Eingelegtes Gemüse** (Cornichons, eingelegte Paprika): sauer-salzig, frischt auf
+
+> Regel: Gesunde Snacks IMMER in Reichweite, Süßkram eine Armlänge weiter weg. 😄
+
+### 7. Popcorn + Nachos (Abends, "Last Hour"-Snacks) 🍿
 - Popcorn: Topf mit Deckel, Öl, Salz — oder Mikrowellen-Popcorn.
 - Nachos: Teller, Käse drüber, 3 Min Mikrowelle, Salsa dazu.
 

@@ -3,7 +3,9 @@
 ## Donnerstag 03.09. — Vorbereitung (10:00–17:00)
 
 ### Aufbau / Technik
-- [ ] Zimmer lüften, Tische/Stühle aufbauen (Plätze: 4)
+- [ ] **Stühle** organisieren (von Zuhause mitbringen — wer bringt wie viele?)
+- [ ] **Tische** aufbauen/stellen (Plätze: 4)
+- [ ] Zimmer lüften
 - [ ] Strom: Mehrfachsteckdosen + Kabel verteilen
 - [ ] LAN: Switch + Kabel verlegen (oder WLAN-Check)
 - [ ] Monitore/Setup-Plätze checken

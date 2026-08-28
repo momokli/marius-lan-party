@@ -54,10 +54,20 @@
 - [ ] Nachos/Tortilla-Chips (3 große Tüten)
 - [ ] Salsa (2 Gläser)
 - [ ] Chips (3 Tüten, gemischt)
-- [ ] Nüsse/Cashews (500g)
 - [ ] Schokolade/Süßkram (für die Nacht)
 - [ ] Brezeln/Salzstangen
 - [ ] Fruchtgummi
+
+## Gesunde Snacks 🥕 (siehe REZEPTE.md §6)
+- [ ] Gemüsesticks: Karotten, Gurke, Paprika, Kohlrabi, Sellerie
+- [ ] Hummus (3× 250g) + Guacamole (2×)
+- [ ] Ungesalzene Nüsse/Mandeln/Cashews (500g)
+- [ ] Obst: Trauben (500g), Beeren (400g), Melone (1), Äpfel (4)
+- [ ] Edamame (tiefgekühlt, 500g)
+- [ ] Griechischer Joghurt (1kg) + Honig
+- [ ] Reiswaffeln (2 Packungen) + Erdnussbutter
+- [ ] Käsewürfel + Oliven
+- [ ] Energiebällchen-Zutaten (Datteln, Haferflocken, Kakao)
 
 ## Fleisch / Alternativen
 - [ ] Rinderhack (750g, Chili)
