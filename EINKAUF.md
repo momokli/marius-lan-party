@@ -1,6 +1,7 @@
 # 🛒 Einkaufsliste
 
-> Basis: 4 Personen × 3 Tage (Fr–So). Vorkochen am Do.
+> Basis: 3 Personen × 3 Tage (Fr–So). Vorkochen am Do.
+> (Marius ist Gastgeber/Ehrengast — wir 3 bringen Stühle + Tisch mit.)
 > Mengen sind Schätzungen — vor dem Einkauf kurz abgleichen.
 
 ## Getränke

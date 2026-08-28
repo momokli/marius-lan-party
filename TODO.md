@@ -3,8 +3,11 @@
 ## Donnerstag 03.09. — Vorbereitung (10:00–17:00)
 
 ### Aufbau / Technik
-- [ ] **Stühle** organisieren (von Zuhause mitbringen — wer bringt wie viele?)
-- [ ] **Tische** aufbauen/stellen (Plätze: 4)
+- [ ] **Tisch**: 3 Türen auf Böcken aufbauen (Plätze: 3)
+- [ ] **Stühle** (3):
+  - [ ] Momo: Bürostuhl von zuhause
+  - [ ] 1× Kleinanzeigen (besorgen!)
+  - [ ] 1× von Matheo
 - [ ] Zimmer lüften
 - [ ] Strom: Mehrfachsteckdosen + Kabel verteilen
 - [ ] LAN: Switch + Kabel verlegen (oder WLAN-Check)

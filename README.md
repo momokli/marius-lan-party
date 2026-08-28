@@ -25,9 +25,9 @@ Wir (Momo, Matheo, Simon) kümmern uns um alles: Aufbau, Einkauf, Vorkochen.
 
 ## Leute
 
-- **Marius** — Ehrengast 🎉
-- Momo
-- Matheo
+- **Marius** — Ehrengast & Gastgeber 🎉 (hat eigenen Stuhl)
+- Momo (bringt Bürostuhl)
+- Matheo (bringt Stuhl)
 - Simon
 
 ## Dateien
