@@ -3,11 +3,11 @@
 ## Donnerstag 03.09. — Vorbereitung (10:00–17:00)
 
 ### Aufbau / Technik
-- [ ] **Tisch**: 3 Türen auf Böcken aufbauen (Plätze: 3)
-- [ ] **Stühle** (3):
-  - [ ] Momo: Bürostuhl von zuhause
-  - [ ] 1× Kleinanzeigen (besorgen!)
-  - [ ] 1× von Matheo
+- [ ] **Tisch**: 3 Türen auf 6 Böcken (Baumarkt — 2 Böcke pro Tür)
+- [ ] **Stühle** (3× Markus):
+  - [ ] Momo: eigenen Markus-Stuhl abbauen + mitnehmen
+  - [ ] Matheo: hat auch einen Markus
+  - [ ] 1× gebraucht (Kleinanzeigen)
 - [ ] Zimmer lüften
 - [ ] Strom: Mehrfachsteckdosen + Kabel verteilen
 - [ ] LAN: Switch + Kabel verlegen (oder WLAN-Check)
@@ -18,14 +18,16 @@
 
 ### Einkauf (mit `EINKAUF.md`) — **Momo + Matheo**
 - [ ] Einkaufsliste checken, Mengen anpassen
+- [ ] Route: schauen was da ist → ggf. Kleinanzeigen → **Lidl/Edeka** → Fontane
 - [ ] Einkauf erledigen (Getränke, Essen, Snacks) — Do, zusammen mit Matheo
 - [ ] Kühlen: Getränke + verderbliche Sachen
 
-### Vorkochen (mit `REZEPTE.md`)
-- [ ] Chili con carne kochen (für Fr)
-- [ ] Wraps/Burrito-Füllungen vorbereiten
-- [ ] Nudelsalat/Kartoffelsalat ansetzen (Kartoffelsalat Pflicht, Nudelsalat optional)
-- [ ] Frühstücks-Casserole vorbereiten (für Fr-Morgen)
+### Vorkochen (mit `REZEPTE.md`) — alle 4 Gerichte!
+- [ ] **Chili** (Topf, für Fr)
+- [ ] **Wraps**-Füllungen (Hähnchen + Kichererbsen)
+- [ ] **Kartoffelsalat** (Pflicht)
+- [ ] **Nudelsalat**
+- [ ] **Gesunde Snacks schnippeln**: Paprika, Tomate-Mozzarella, Oliven, Käsewürfel
 - [ ] Snacks portionieren (Popcorn, Nachos, etc.)
 
 ## Freitag 04.09. — Party-Tag 1 (Start 10:00)
@@ -44,8 +46,7 @@
 ## Sonntag 06.09. — Abbau (bis 22:00)
 - [ ] Frühstück
 - [ ] Letzte Games-Runden
-- [ ] 22:00 Ende, Abbau:
-  - [ ] Küche: Spülen, Reste verteilen/einfrieren
-  - [ ] Technik abbauen, Kabel aufräumen
-  - [ ] Müll rausbringen
-  - [ ] Zimmer wieder herrichten
+- [ ] **22:00 Ende** — Marius fährt heim 🚗
+- [ ] Wir (Momo + Matheo) **pennen noch vor Ort** 😴
+- [ ] Montag früh: **cleanen + Zeug zurückfahren** (PC + Stuhl von Momo)
+- [ ] Tati kommt **Dienstag mit Auto** (Rest-Transport)

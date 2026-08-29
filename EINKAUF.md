@@ -71,6 +71,7 @@
 - [ ] Griechischer Joghurt (1kg) + Honig
 - [ ] Reiswaffeln (2 Packungen) + Erdnussbutter
 - [ ] Käsewürfel + Oliven
+- [ ] **Tomate-Mozzarella** (Büffel-Mozzarella 2×, Tomaten, Basilikum, Olivenöl)
 - [ ] Energiebällchen-Zutaten (Datteln, Haferflocken, Kakao)
 
 ## Fleisch / Alternativen

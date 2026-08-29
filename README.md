@@ -57,3 +57,12 @@ Wir (Momo, Matheo, Simon) kümmern uns um alles: Aufbau, Einkauf, Vorkochen.
 | 11:01 | 11:23 |
 
 → Fontaneallee 13, Eichwalde (kurzer Fußweg vom Bahnhof)
+
+## 📍 Treffpunkt Brüderlan (Fr)
+
+**S+U Neukölln/Lahnstr.** — Lahnstraße 97, 12055 Berlin
+**Fr 04.09., 09:50–10:50** → zusammen Bahn nehmen (S46) nach Eichwalde
+
+## 🚗 Anreise Do (Vorbereitung)
+- **Matheo holt um 10:00 mit Auto ab** („Ich plan dich 10 Uhr mit Auto abholen")
+- Einkaufsroute: schauen was da ist → ggf. Kleinanzeigen → Lidl/Edeka → Fontane

@@ -36,7 +36,7 @@
 - [ ] Monitor + Kabel (HDMI/DP) + ggf. USB-C-Adapter
 - [ ] Tastatur, Maus, Mauspad
 - [ ] Kopfhörer/Headset
-- [ ] Controller (falls gewünscht)
+- [ ] Controller: **Momo hat 2× 8bitdo** 🎮 (Rocket League!)
 - [ ] Steam-Accounts vorher einloggen, Updates vorher ziehen! (kein Download-Roulette bei der Party)
 
 ## Strom ⚡ (wichtigster Flaschenhals!)
