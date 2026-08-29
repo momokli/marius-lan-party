@@ -1,7 +1,6 @@
 # 🛒 Einkaufsliste
 
-> Basis: 4 Personen (Marius + Momo + Matheo + Simon) × 3 Tage (Fr–So). Vorkochen am Do.
-> Gäste: Marius, Matheo, Simon — mehr nicht. Stühle/Tisch bringen Momo + Matheo mit.
+> Basis: 3 Personen (Marius + Matheo + Simon/Momo) × 3 Tage (Fr–So). Vorkochen am Do.
 > Mengen sind Schätzungen — vor dem Einkauf kurz abgleichen.
 
 ## Getränke
@@ -34,6 +33,10 @@
 - [ ] Äpfel/Bananen (Snacks)
 - [ ] Salat (2 Köpfe, Fr/Sa)
 - [ ] Karotten (500g)
+- [ ] **Festkochende Kartoffeln (1kg, Kartoffelsalat)**
+- [ ] **Gewürzgurken (Glas, für Kartoffelsalat)**
+- [ ] **Mayonnaise (1 Glas)**
+- [ ] **Senf (mittelscharf)**
 
 ## Trockenware / Vorrat
 - [ ] Nudeln (1kg)

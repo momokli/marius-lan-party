@@ -24,7 +24,7 @@
 ### Vorkochen (mit `REZEPTE.md`)
 - [ ] Chili con carne kochen (für Fr)
 - [ ] Wraps/Burrito-Füllungen vorbereiten
-- [ ] Nudelsalat/Kartoffelsalat ansetzen
+- [ ] Nudelsalat/Kartoffelsalat ansetzen (Kartoffelsalat Pflicht, Nudelsalat optional)
 - [ ] Frühstücks-Casserole vorbereiten (für Fr-Morgen)
 - [ ] Snacks portionieren (Popcorn, Nachos, etc.)
 

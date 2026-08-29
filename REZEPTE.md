@@ -8,7 +8,7 @@
 | Tag | Frühstück (8–9) | Mittag | Abend |
 |-----|-----------------|--------|-------|
 | **Fr** | Brötchen + Aufschnitt | Chili (vom Do) | Wraps (Füllung vom Do) |
-| **Sa** | Müsli/Toast | Nudelsalat + Chili-Reste | TK-Pizza (Ofen) |
+| **Sa** | Müsli/Toast | Kartoffelsalat + Chili-Reste | TK-Pizza (Ofen) |
 | **So** | Müsli/Toast | TK-Pizza (Ofen) | Sandwiches + Snacks bis 22:00 |
 
 ## Rezepte
@@ -25,7 +25,11 @@ Quelle: [Kitchn — Classic Beef Chili](https://www.thekitchn.com/chili-recipe-2
 - Dazu: Guacamole (Avocado + Limette + Zwiebel), Salsa, Käse, Creme fraîche
 - Fr abend: Wraps 2 Min in der Pfanne/Ofen, jeder baut sich seinen eigenen.
 
-### 3. Nudelsalat (Do vorkochen) 🍝
+### 3. Kartoffelsalat (Do vorkochen) 🥔
+- Klassiker mit Mayo-Gurken-Dressing: festkochende Kartoffeln, Gewürzgurken, Zwiebel, Mayo + Gurkenwasser + Senf.
+- Wird über Nacht besser — Sa mittag perfekt.
+
+### 4. Nudelsalat (Do vorkochen, optional) 🍝
 - Klassiker: Nudeln, Gurke, Paprika, Mais, Feta — Dressing aus Essig/Öl/Senf.
 - Wird über Nacht besser. Sa mittag perfekt.
 
