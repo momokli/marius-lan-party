@@ -19,6 +19,7 @@
 | **Gamble With Your Friends** | ✅ | Glücksspiel-/Party-Minigames („Mario Party mit Wetten") | Host reicht |
 | **Golf With Your Friends** | ✅ | Minigolf-Party (bis 12 Spieler, kurze Runden) | Host reicht |
 | **Hellcard** | ✅ | Roguelike-Deckbuilder, Coop bis 3 Spieler („Slay the Spire mit Freunden") | Host reicht |
+| **Age of Wonders 4** | ✅ | 4X-Rundenstrategie, Coop/Hotseat | Host reicht |
 | **Jackbox Party Pack** | ✅ | Quiz/Creative, jeder mit Handy | Steam + Handys |
 | **Trackmania** | ✅ | Zeitfahren, kurze Runs | Host reicht |
 | **Left 4 Dead 2** | ✅ | 4-Spieler-CoOp | Host reicht |
