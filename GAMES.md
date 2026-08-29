@@ -16,6 +16,7 @@
 | **Gang Beasts / Fall Guys** | ✅ | Party-Brawler, lokaler Chaos-Spaß | Host reicht |
 | **Duck Game** | ✅ | 4-Spieler-Party-Shooter | Host reicht |
 | **Friends vs Friends** | ✅ | Kartenspiel-Shooter, kurze Runden („slay the spire trifft CS") | Host reicht |
+| **Gamble With Your Friends** | ✅ | Glücksspiel-/Party-Minigames („Mario Party mit Wetten") | Host reicht |
 | **Jackbox Party Pack** | ✅ | Quiz/Creative, jeder mit Handy | Steam + Handys |
 | **Trackmania** | ✅ | Zeitfahren, kurze Runs | Host reicht |
 | **Left 4 Dead 2** | ✅ | 4-Spieler-CoOp | Host reicht |
