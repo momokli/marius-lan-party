@@ -9,7 +9,7 @@
 |-----|-----------------|--------|-------|
 | **Fr** | Brötchen + Aufschnitt | Chili (Reste) | Burritos/Wraps |
 | **Sa** | French Toast Casserole | Nudelsalat + Reste | Curry oder Pizza-Ofen |
-| **So** | Baked Omelet / Müsli | Reste-Tag 🧹 | (bis 22:00 Snacks) |
+| **So** | Baked Omelet / Müsli | Pizza (frisch) oder Burger | Sandwiches/Toasties + Snacks bis 22:00 |
 
 ## Rezepte
 
