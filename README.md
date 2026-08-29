@@ -44,3 +44,16 @@ Wir (Momo, Matheo, Simon) kümmern uns um alles: Aufbau, Einkauf, Vorkochen.
 - **Website:** https://30.mariusklimke.de/ (auf Planet, `/opt/http/30.mariusklimke.de/`)
 - **LanHub** (LAN-Management auf Planet): `hub.zukkafabrik.de`
 - Repo: github.com/momokli/marius-lan-party
+
+## 🚆 Anreise (S-Bahn)
+
+**S+U Neukölln → S Eichwalde** (S46 Richtung Königs Wusterhausen, 22 Min, 7 Stops):
+
+| Ab Neukölln (Gl. 2) | An Eichwalde (Gl. 3) |
+|---|---|
+| 10:01 | 10:23 |
+| 10:21 | 10:43 |
+| 10:41 | 11:03 |
+| 11:01 | 11:23 |
+
+→ Fontaneallee 13, Eichwalde (kurzer Fußweg vom Bahnhof)
