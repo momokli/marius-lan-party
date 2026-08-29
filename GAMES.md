@@ -7,6 +7,7 @@
 
 | Spiel | Steam | Modus | Setup-Aufwand |
 |-------|-------|-------|---------------|
+| **Satisfactory** 🔥 | ✅ | 3D-Factory-CoOp („Factorio in 3D"), **aktueller Hot Pick** | Dedicated Server möglich |
 | **Factorio** | ✅ | Coop-Factory, "eine letzte Runde"-Falle | Dedicated Server (läuft schon im Lab) |
 | **Warcraft III Reforged** | ✅ | Custom Games (Tower Defense, TFT) | Host reicht |
 | **Of Guards and Thieves** | ✅ | 4v4 Stealth/Shooter, kurze Runden | Host reicht |
