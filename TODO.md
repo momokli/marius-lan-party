@@ -16,9 +16,9 @@
 - [ ] LanHub: Event anlegen, Timeline-Posts vorbereiten, Musicbot testen
 - [ ] Discord/Teamspeak/Voice-Chat testen
 
-### Einkauf (mit `EINKAUF.md`)
+### Einkauf (mit `EINKAUF.md`) — **Momo + Matheo**
 - [ ] Einkaufsliste checken, Mengen anpassen
-- [ ] Einkauf erledigen (Getränke, Essen, Snacks)
+- [ ] Einkauf erledigen (Getränke, Essen, Snacks) — Do, zusammen mit Matheo
 - [ ] Kühlen: Getränke + verderbliche Sachen
 
 ### Vorkochen (mit `REZEPTE.md`)

@@ -36,6 +36,7 @@ Wir (Momo, Matheo, Simon) kümmern uns um alles: Aufbau, Einkauf, Vorkochen.
 - `EINKAUF.md` — Einkaufsliste
 - `REZEPTE.md` — Rezepte & Essensplan (Vorkoch-Strategie)
 - `GAMES.md` — Games-Auswahl (Steam-Pool)
+- `GEAR.md` — Gear-Checkliste (Strom, Netzwerk, Kabel, Komfort)
 - `LAN-SERVER.md` — Dedicated-Server-Notizen (falls nötig)
 
 ## Links
