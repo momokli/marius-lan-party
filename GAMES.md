@@ -20,6 +20,7 @@
 | **Golf With Your Friends** | ✅ | Minigolf-Party (bis 12 Spieler, kurze Runden) | Host reicht |
 | **Hellcard** | ✅ | Roguelike-Deckbuilder, Coop bis 3 Spieler („Slay the Spire mit Freunden") | Host reicht |
 | **Age of Wonders 4** | ✅ | 4X-Rundenstrategie, Coop/Hotseat | Host reicht |
+| **Reign of Nether (RTS in MC)** | — (CurseForge) | Minecraft-Mod: RTS-Einheiten beschwören & kämpfen | Mod auf Server + Clients |
 | **Jackbox Party Pack** | ✅ | Quiz/Creative, jeder mit Handy | Steam + Handys |
 | **Trackmania** | ✅ | Zeitfahren, kurze Runs | Host reicht |
 | **Left 4 Dead 2** | ✅ | 4-Spieler-CoOp | Host reicht |
