@@ -7,9 +7,9 @@
 
 | Tag | Frühstück (8–9) | Mittag | Abend |
 |-----|-----------------|--------|-------|
-| **Fr** | Brötchen + Aufschnitt | Chili (Reste) | Burritos/Wraps |
-| **Sa** | French Toast Casserole | Nudelsalat + Reste | Curry oder Pizza-Ofen |
-| **So** | Baked Omelet / Müsli | Pizza (frisch) oder Burger | Sandwiches/Toasties + Snacks bis 22:00 |
+| **Fr** | Brötchen + Aufschnitt | Chili (vom Do) | Wraps (Füllung vom Do) |
+| **Sa** | Müsli/Toast | Nudelsalat + Chili-Reste | TK-Pizza (Ofen) |
+| **So** | Müsli/Toast | TK-Pizza (Ofen) | Sandwiches + Snacks bis 22:00 |
 
 ## Rezepte
 
