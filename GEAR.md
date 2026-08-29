@@ -13,6 +13,24 @@
 - [ ] **Bluetooth-Box** — wer hat eine?
 - [ ] **HDMI/DP-Kabel + Adapter** — Ersatz von wem?
 
+## Schlafen 😴 (vor Ort „nur shit“)
+
+**3 Schlafplätze nötig** — Optionen (Geizhals-Baseline, Stand 2026-08):
+
+| Option | Preis ab | Händler | Link |
+|--------|----------|---------|------|
+| Mil-Tec Alu Feldbett | € 47,99 | Geizhals-Vergleich | [Link](https://geizhals.de/mil-tec-feldbett-14402001-a2936059.html) |
+| Camping Feldbett olive | € 55,00 | Geizhals-Vergleich | [Link](https://geizhals.de/camping-feldbett-olive-a3892592.html) |
+| Outwell Posadas Single | € 61,95 | Geizhals-Vergleich | [Link](https://geizhals.de/outwell-posadas-single-campingliege-470304-a1515368.html) |
+| Coleman Packaway | € 70,30 | Geizhals-Vergleich | [Link](https://geizhals.de/coleman-packaway-campingliege-2176135-a3230138.html) |
+| Outwell Posadas XL | € 77,90 | Geizhals-Vergleich | [Link](https://geizhals.de/outwell-posadas-xl-campingliege-470305-a1832308.html) |
+| KingCamp Ultralight XL | € 80,93 | Geizhals-Vergleich | [Link](https://geizhals.de/kingcamp-klick-feldbett-xl-v166985.html) |
+| Decathlon Bed Air (aufblasbar, Lattenrost 70x200) | ~70–90 € (Refurbished verfügbar) | Decathlon | [Link](https://www.decathlon.de/p/campingbett-aufblasbar-mit-lattenrost-bed-air-70x200-cm-blau/309887/c70c98m8595949) |
+
+- [ ] **3 Schlafplätze klären**: kaufen (2× Mil-Tec/Decathlon reicht?) oder Kleinanzeigen gebraucht
+- [ ] Schlafsack/Decke + Kissen je Person (BYO)
+- [ ] Luftmatratze-Pumpe (falls aufblasbar)
+
 ## Jeder bringt mit (BYO)
 - [ ] PC/Laptop + Netzteil
 - [ ] Monitor + Kabel (HDMI/DP) + ggf. USB-C-Adapter
