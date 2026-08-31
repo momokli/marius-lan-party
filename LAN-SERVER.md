@@ -10,6 +10,7 @@ Alles in `server-stack/`: **Docker-Compose-Files je Spiel + Control-Dashboard + 
 
 | Spiel | Status auf M4-Mac | Port(s) |
 |---|---|---|
+| 🌐 Archipelago (Multiworld-Randomizer) | ✅ nativ (Python/arm64) — Multiworld vorher generieren! | 38281/tcp |
 | 🏭 Factorio | ✅ nativ (arm64) | 34197/udp |
 | ⛏️ Minecraft Paper | ✅ nativ (arm64) | 25565/tcp |
 | ⚔️ Reign of Nether (Forge 1.20.1) | ✅ nativ | 25566/tcp |
@@ -29,7 +30,8 @@ Alles in `server-stack/`: **Docker-Compose-Files je Spiel + Control-Dashboard + 
 
 ## Check-Liste vor der Party
 
-- [ ] `server-stack/.env` anlegen (`cp .env.example .env`) — GSLT-Token + Passwörter eintragen
+- [ ] `server-stack/.env` anlegen (`cp .env.example .env`) — GSLT-Token, Passwörter, AP_PASSWORD eintragen
+- [ ] Archipelago: YAMLs je Spieler + Multiworld-Generierung **zuhause** (docs/archipelago.md)
 - [ ] Docker Desktop: Rosetta aktivieren (Settings → General), VM-RAM prüfen (24-GB-Mac → 16–20 GB)
 - [ ] Server einmal komplett durchstarten (Dashboard: http://localhost:8080)
 - [ ] Minecraft: Whitelist/ONLINE_MODE klären (haben alle 4 Mojang-Accounts?)

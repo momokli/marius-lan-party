@@ -1,0 +1,25 @@
+# Archipelago Multiworld Server (Randomizer-Verbund: 1 Room verbindet mehrere Spiele)
+# Eigenes Image (server-stack/archipelago/, gepinnt auf AP 0.6.7) — das Archipelago-Projekt
+# veröffentlicht kein offizielles Docker-Image (sein Dockerfile startet nur den WebHost).
+# Läuft nativ auf Apple Silicon (Python/arm64). Docs: server-stack/docs/archipelago.md
+#
+# Vor dem ersten Start: Multiworld generieren (YAML je Spieler!) und als
+# data/archipelago/multiworld.zip ablegen — sonst beendet sich der Container mit Hinweis.
+# Start:  docker compose -f docker-compose.archipelago.yml up -d
+services:
+  archipelago:
+    build: ./archipelago
+    image: lan-party-archipelago:0.6.7
+    container_name: lan-archipelago
+    ports:
+      - "${AP_PORT:-38281}:38281"     # TCP (WebSocket; Clients verbinden hierauf)
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/archipelago:/app/data"   # multiworld.zip + Savegame (.apsave)
+    environment:
+      - AP_HOST=0.0.0.0
+      - AP_PORT=${AP_PORT:-38281}
+      - AP_PASSWORD=${AP_PASSWORD:-}               # Room-Passwort (Clients geben es beim Verbinden an)
+      - AP_SERVER_PASSWORD=${AP_SERVER_PASSWORD:-} # Admin-Passwort für die Server-Konsole
+      - AP_LOGLEVEL=${AP_LOGLEVEL:-info}
+    mem_limit: 1g
+    restart: unless-stopped

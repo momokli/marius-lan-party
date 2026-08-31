@@ -7,6 +7,7 @@ Ziel-Host: **MacBook Pro M4 Pro, 24 GB RAM, Docker Desktop** (arm64, Rosetta fü
 
 | Server | Arch-Status auf Apple Silicon | RAM | Disk | Ports | Doc |
 |---|---|---|---|---|---|
+| 🌐 Archipelago (Multiworld) | ✅ **nativ** (Python/arm64) | ~0,5–1 GB | klein (Saves) | 38281/tcp | [archipelago.md](archipelago.md) |
 | 🏭 Factorio | ✅ **nativ** (arm64-Build) | 2–4 GB | klein | 34197/udp, 27015/tcp | [factorio.md](factorio.md) |
 | ⛏️ Minecraft Paper | ✅ **nativ** (arm64-Build) | 4–5 GB | ~1–2 GB | 25565/tcp | [minecraft.md](minecraft.md) |
 | ⚔️ Reign of Nether | ✅ **nativ** (Java/arm64) | 6–7 GB | ~1 GB | 25566/tcp | [minecraft.md](minecraft.md) |
@@ -23,6 +24,7 @@ Ziel-Host: **MacBook Pro M4 Pro, 24 GB RAM, Docker Desktop** (arm64, Rosetta fü
   Party im Heimnetz starten, damit SteamCMD die Files einmal zieht (→ `data/`-Ordner). Details: [apple-silicon.md](apple-silicon.md).
 - **Secrets** gehören NUR in `server-stack/.env` (Vorlage: `.env.example`) — nie committen.
 - **4 Spieler:** Alle Server auf 4–10 Slots konfiguriert; CS2-competitive hat fix 10 Slots (Bots zum Auffüllen).
+- **Archipelago:** Multiworld-Randomizer für Factorio/Satisfactory/Overcooked 2 — Multiworld **vor der Party generieren** (Internet), Details: [archipelago.md](archipelago.md).
 
 ## Quickstart
 

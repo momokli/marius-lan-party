@@ -65,6 +65,17 @@
       "ports": "7777/tcp+udp, 8888/tcp",
       "ram": "12–16 GB",
       "docs": "docs/satisfactory.md"
+    },
+    {
+      "id": "archipelago",
+      "name": "Archipelago (Multiworld)",
+      "emoji": "🌐",
+      "composeFile": "docker-compose.archipelago.yml",
+      "service": "archipelago",
+      "description": "Multiworld-Randomizer (Factorio, Satisfactory, Overcooked 2) — braucht generierte multiworld.zip",
+      "ports": "38281/tcp",
+      "ram": "~0.5–1 GB",
+      "docs": "docs/archipelago.md"
     }
   ]
 }
