@@ -1,0 +1,32 @@
+# Left 4 Dead 2 Dedicated Server (srcds)
+# Image: ghcr.io/jackzmc/srcds-l4d2 (kompletter Server inkl. Spieldateien, x86_64)
+#
+# ⚠️ WICHTIG: Der L4D2-srcds ist ein 32-BIT-Binary (Valve hat bis heute kein 64-bit-Update
+# veröffentlicht). Rosetta 2 emuliert NUR x86_64 → auf Apple Silicon (M1–M4) läuft dieser
+# Container NICHT. Für die LAN-Party mit 4 Leuten reicht ein normaler Listen-Server
+# (im Spiel "Host" drücken). Dieses Compose-File ist nur für x86_64-Hosts gedacht.
+# Details: docs/l4d2.md + docs/apple-silicon.md
+#
+# Start (x86_64-Host): docker compose -f docker-compose.l4d2.yml up -d
+services:
+  l4d2:
+    image: ghcr.io/jackzmc/srcds-l4d2:master
+    container_name: lan-l4d2
+    platform: linux/amd64
+    ports:
+      - "27015:27015/tcp"
+      - "27015:27015/udp"
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/l4d2/addons:/server/left4dead2/addons"   # Addons/SourceMod
+    command:
+      - "-usercon"
+      - "+hostname"
+      - '"LAN-Party L4D2"'   # Quotes nötig (Source-Arg-Parser, Muster aus Image-README)
+      - "+sv_lan"
+      - "1"
+      - "+map"
+      - "c1m1_hotel"          # erste Kampagne
+      - "+maxplayers"
+      - "4"
+    mem_limit: 4g
+    restart: unless-stopped

@@ -37,7 +37,10 @@ Wir (Momo, Matheo, Simon) kümmern uns um alles: Aufbau, Einkauf, Vorkochen.
 - `REZEPTE.md` — Rezepte & Essensplan (Vorkoch-Strategie)
 - `GAMES.md` — Games-Auswahl (Steam-Pool)
 - `GEAR.md` — Gear-Checkliste (Strom, Netzwerk, Kabel, Komfort)
-- `LAN-SERVER.md` — Dedicated-Server-Notizen (falls nötig)
+- `LAN-SERVER.md` — Dedicated-Server-Notizen
+- `server-stack/` — **Game-Server-Stack als Code**: Docker-Compose-Files je Spiel
+  (Factorio, Minecraft/Reign of Nether, CS2, L4D2, Satisfactory) + Control-Dashboard
+  (Status/Start/Stop) + Docs mit Best-in-Slot-Settings → [`server-stack/README.md`](server-stack/README.md)
 
 ## Links
 
