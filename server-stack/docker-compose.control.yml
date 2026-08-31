@@ -1,0 +1,25 @@
+# Control-UI (Dashboard + API) als Docker-Container — optionaler Weg.
+# Empfohlener Weg: nativ via Node (keine Installation nötig):  cd control && node server.js
+#
+# Docker-Weg (braucht Docker Desktop, bindet den Docker-Socket ein):
+#   docker compose -f docker-compose.control.yml up -d --build
+#
+# WICHTIG: SERVER_STACK_DIR=${PWD} wird an die Game-Server weitergereicht, damit deren
+# Volume-Pfade (${SERVER_STACK_DIR:-.}/data/...) auf dem HOST korrekt auflösen.
+# → Dieses Compose-File IMMER aus dem server-stack-Ordner starten!
+services:
+  control:
+    build: ./control
+    image: lan-party-control:latest
+    container_name: lan-control
+    ports:
+      - "8080:8080"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8080
+      COMPOSE_DIR: /compose
+      SERVER_STACK_DIR: ${PWD}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock   # Zugriff auf den Host-Docker-Daemon
+      - .:/compose:ro                                # Compose-Files + Registry (read-only)
+    restart: unless-stopped

@@ -1,0 +1,50 @@
+# Minecraft Server (Paper) + Reign of Nether (Forge 1.20.1)
+# Image: itzg/minecraft-server (multi-arch: arm64 läuft nativ auf Apple Silicon)
+# Docs: server-stack/docs/minecraft.md
+#
+# Start:  docker compose -f docker-compose.minecraft.yml up -d            # beide Server
+#         docker compose -f docker-compose.minecraft.yml up -d minecraft  # nur Paper
+#         docker compose -f docker-compose.minecraft.yml up -d minecraft-reign
+services:
+  # Vanilla-Survival auf Paper (schnell & stabil, Performance-Flags)
+  minecraft:
+    image: itzg/minecraft-server:latest
+    container_name: lan-minecraft
+    ports:
+      - "25565:25565"   # TCP
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/minecraft:/data"
+    environment:
+      - EULA=TRUE                       # Pflicht (Minecraft-Lizenz)
+      - TYPE=PAPER
+      - VERSION=${MC_VERSION:-latest}   # z.B. 1.21.4 pinnen für Stabilität
+      - MEMORY=4G
+      - USE_AIKAR_FLAGS=true            # Aikars JVM-GC-Flags (siehe docs)
+      - MAX_PLAYERS=${MC_MAX_PLAYERS:-8}
+      - VIEW_DISTANCE=${MC_VIEW_DISTANCE:-12}
+      - ONLINE_MODE=${MC_ONLINE_MODE:-TRUE}   # TRUE = echte Mojang-Accounts, FALSE = Offline-LAN
+      - ENABLE_WHITELIST=${MC_ENABLE_WHITELIST:-FALSE}
+      - WHITELIST=${MC_WHITELIST:-}
+      - ENABLE_QUERY=true
+    mem_limit: 5g
+    restart: unless-stopped
+
+  # Reign of Nether RTS (CurseForge-Modpack, Forge 1.20.1) — anderer Port (25566)
+  minecraft-reign:
+    image: itzg/minecraft-server:latest
+    container_name: lan-minecraft-reign
+    ports:
+      - "25566:25565"   # TCP (abweichender Host-Port, um parallel zu Paper laufen zu können)
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/minecraft-reign:/data"
+    environment:
+      - EULA=TRUE
+      - TYPE=AUTO_CURSEFORGE
+      - CF_PAGE_URL=${REIGN_CF_PAGE_URL:-https://www.curseforge.com/minecraft/modpacks/reign-of-nether-rts}
+      # Optional: CF_API_KEY=${CF_API_KEY} ergänzen, falls der eingebaute Key nicht reicht
+      - MEMORY=6G
+      - USE_AIKAR_FLAGS=true
+      - MAX_PLAYERS=4
+      - ONLINE_MODE=${MC_ONLINE_MODE:-TRUE}
+    mem_limit: 7g
+    restart: unless-stopped

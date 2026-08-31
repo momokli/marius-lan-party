@@ -1,0 +1,22 @@
+# Factorio Dedicated Server
+# Image: factoriotools/factorio (offizielles Community-Image, native arm64-Builds für Apple Silicon)
+# Docs: server-stack/docs/factorio.md
+#
+# Start:  docker compose -f docker-compose.factorio.yml up -d
+# Stop:   docker compose -f docker-compose.factorio.yml stop
+services:
+  factorio:
+    image: factoriotools/factorio:stable
+    container_name: lan-factorio
+    ports:
+      - "34197:34197/udp"   # Game (UDP)
+      - "27015:27015/tcp"   # RCON (TCP)
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/factorio:/factorio"
+    environment:
+      - PORT=34197
+      - RCON_PORT=27015
+      - SAVE_NAME=${FACTORIO_SAVE_NAME:-lan-party}
+      - UPDATE_MODS_ON_START=true
+    mem_limit: 4g
+    restart: unless-stopped

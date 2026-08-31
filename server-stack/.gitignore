@@ -1,0 +1,12 @@
+# Secrets & lokale Daten — nie committen!
+.env
+
+# Spieldaten (Saves, Configs, Server-Files: CS2 ~40GB, Satisfactory ~15GB …)
+data/
+
+# L4D2-Addons sind Teil von data/ — zusätzlich absichern
+data/l4d2/
+
+# Node
+node_modules/
+npm-debug.log

@@ -7,11 +7,11 @@
 
 | Spiel | Steam | Modus | Setup-Aufwand |
 |-------|-------|-------|---------------|
-| **Satisfactory** 🔥 | ✅ | 3D-Factory-CoOp („Factorio in 3D"), **bestätigt (Marius)** | Dedicated Server möglich |
-| **Factorio** | ✅ | Coop-Factory, "eine letzte Runde"-Falle | Dedicated Server (läuft schon im Lab) |
+| **Satisfactory** 🔥 | ✅ | 3D-Factory-CoOp („Factorio in 3D"), **bestätigt (Marius)** | Dedi im server-stack (Rosetta, nur solo) |
+| **Factorio** | ✅ | Coop-Factory, "eine letzte Runde"-Falle | Dedi im server-stack (nativ, arm64) |
 | **Warcraft III Reforged** | ✅ | Custom Games (Tower Defense, TFT) | Host reicht |
 | **Of Guards and Thieves** | ✅ | 4v4 Stealth/Shooter, kurze Runden | Host reicht |
-| **Counter-Strike 2** | ✅ | 5v5 / Retakes / Surf | Community-Server oder Host |
+| **Counter-Strike 2** | ✅ | 5v5 / Retakes / Surf | Dedi im server-stack (Rosetta) oder Host |
 | **Rocket League** 🔥 | ✅ | 2v2/3v3 Turnier — **Momos Hot Pick!** | Host reicht |
 | **Gang Beasts / Fall Guys** | ✅ | Party-Brawler, lokaler Chaos-Spaß | Host reicht |
 | **Duck Game** | ✅ | 4-Spieler-Party-Shooter | Host reicht |
@@ -34,10 +34,10 @@
 | **SpiderHeck** | ✅ | Spinnen-Swordfight-Chaos, bis 4 | Host reicht |
 | **Pizza Tower** | ✅ | Speedrun-Plattformer (eher Solo/Ablösung) | — |
 | **Age of Wonders 4** | ✅ | 4X-Rundenstrategie, Coop/Hotseat | Host reicht |
-| **Reign of Nether (RTS in MC)** | — (CurseForge) | Minecraft-Mod: RTS-Einheiten beschwören & kämpfen | Mod auf Server + Clients |
+| **Reign of Nether (RTS in MC)** | — (CurseForge) | Minecraft-Mod: RTS-Einheiten beschwören & kämpfen | Mod auf Server + Clients (Forge 1.20.1, im server-stack) |
 | **Jackbox Party Pack** | ✅ | Quiz/Creative, jeder mit Handy | Steam + Handys |
 | **Trackmania** | ✅ | Zeitfahren, kurze Runs | Host reicht |
-| **Left 4 Dead 2** | ✅ | 4-Spieler-CoOp | Host reicht |
+| **Left 4 Dead 2** | ✅ | 4-Spieler-CoOp | Host reicht (Dedi nicht auf Apple Silicon) |
 | **Overcooked 2** | ✅ | CoOp-Koch-Chaos (Beziehungstest) | Host reicht |
 
 ## Vorschlag Ablauf
@@ -47,7 +47,7 @@
 
 ## Noch zu klären
 - [ ] Welche Spiele hat wer in der Bibliothek (Steam Family Sharing?)
-- [ ] Dedicated Server nötig für CS2/WC3? → siehe LAN-SERVER.md
+- [ ] Dedicated Server: Setup komplett in `server-stack/` — CS2/Satisfactory vorher zuhause vorladen! (siehe `LAN-SERVER.md`)
 - [ ] Turnier-Modus über LanHub (hat Tournaments-Feature)?
 - [ ] **Steam-Refund-Strategie**: Games <2h spielen → zurückgeben → viele ausprobieren (14 Tage/2h-Regel beachten!)
 

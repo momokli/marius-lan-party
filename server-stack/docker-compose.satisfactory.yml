@@ -1,0 +1,23 @@
+# Satisfactory Dedicated Server
+# Image: wolveix/satisfactory-server (Coffee Stain liefert NUR x86_64-Builds, kein ARM)
+# Apple Silicon: läuft nur via Rosetta-Emulation (linux/amd64). Offizielle Anforderungen:
+# 12 GB RAM min. / 16 GB empfohlen → auf dem 24-GB-Mac nur OHNE parallele andere Server!
+# Details: docs/satisfactory.md + docs/apple-silicon.md
+#
+# Start:  docker compose -f docker-compose.satisfactory.yml up -d
+services:
+  satisfactory:
+    image: wolveix/satisfactory-server:latest
+    container_name: lan-satisfactory
+    platform: linux/amd64       # x86_64 → Rosetta auf Apple Silicon
+    ports:
+      - "7777:7777/tcp"         # Game + Server-API (seit 1.0)
+      - "7777:7777/udp"         # Game
+      - "8888:8888/tcp"         # Reliable-Messaging (seit Update 1.1, Pflicht!)
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/satisfactory:/config"   # ~15 GB, vorher zuhause vorladen
+    environment:
+      - MAXPLAYERS=${SATISFACTORY_MAXPLAYERS:-4}
+      - STEAMBETA=${SATISFACTORY_STEAMBETA:-false}
+    mem_limit: 12g
+    restart: unless-stopped

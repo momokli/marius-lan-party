@@ -1,0 +1,70 @@
+{
+  "servers": [
+    {
+      "id": "factorio",
+      "name": "Factorio",
+      "emoji": "🏭",
+      "composeFile": "docker-compose.factorio.yml",
+      "service": "factorio",
+      "description": "Coop-Factory — läuft nativ (arm64)",
+      "ports": "34197/udp (Game), 27015/tcp (RCON)",
+      "ram": "~2–4 GB",
+      "docs": "docs/factorio.md"
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft (Paper)",
+      "emoji": "⛏️",
+      "composeFile": "docker-compose.minecraft.yml",
+      "service": "minecraft",
+      "description": "Vanilla-Survival auf Paper — läuft nativ (arm64)",
+      "ports": "25565/tcp",
+      "ram": "~4–5 GB",
+      "docs": "docs/minecraft.md"
+    },
+    {
+      "id": "minecraft-reign",
+      "name": "Reign of Nether",
+      "emoji": "⚔️",
+      "composeFile": "docker-compose.minecraft.yml",
+      "service": "minecraft-reign",
+      "description": "RTS-Mod für Minecraft (Forge 1.20.1, CurseForge-Modpack)",
+      "ports": "25566/tcp",
+      "ram": "~6–7 GB",
+      "docs": "docs/minecraft.md"
+    },
+    {
+      "id": "cs2",
+      "name": "Counter-Strike 2",
+      "emoji": "🔫",
+      "composeFile": "docker-compose.cs2.yml",
+      "service": "cs2",
+      "description": "Competitive-Server (LAN) — x86_64 via Rosetta, ~40–60 GB Download",
+      "ports": "27015/tcp+udp",
+      "ram": "~4–8 GB",
+      "docs": "docs/cs2.md"
+    },
+    {
+      "id": "l4d2",
+      "name": "Left 4 Dead 2",
+      "emoji": "🧟",
+      "composeFile": "docker-compose.l4d2.yml",
+      "service": "l4d2",
+      "description": "Coop-Shooter — srcds ist 32-bit: NICHT auf Apple Silicon lauffähig",
+      "ports": "27015/tcp+udp",
+      "ram": "~2–4 GB",
+      "docs": "docs/l4d2.md"
+    },
+    {
+      "id": "satisfactory",
+      "name": "Satisfactory",
+      "emoji": "🏗️",
+      "composeFile": "docker-compose.satisfactory.yml",
+      "service": "satisfactory",
+      "description": "3D-Factory-CoOp — x86_64 via Rosetta, 12–16 GB RAM, ~15 GB Download",
+      "ports": "7777/tcp+udp, 8888/tcp",
+      "ram": "12–16 GB",
+      "docs": "docs/satisfactory.md"
+    }
+  ]
+}

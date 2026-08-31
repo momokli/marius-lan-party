@@ -1,0 +1,31 @@
+# Counter-Strike 2 Dedicated Server
+# Image: joedwards32/CS2 (SteamCMD + CS2-Server; Valve liefert NUR x86_64-Builds)
+# Apple Silicon: läuft nur via Rosetta-Emulation (linux/amd64) — machbar, aber NICHT offiziell
+# unterstützt; SteamCMD-/Update-Probleme möglich (Details: docs/cs2.md + docs/apple-silicon.md)
+# Docs: server-stack/docs/cs2.md
+#
+# Start:  docker compose -f docker-compose.cs2.yml up -d
+services:
+  cs2:
+    image: joedwards32/cs2:latest
+    container_name: lan-cs2
+    platform: linux/amd64       # x86_64 → Rosetta auf Apple Silicon, nativ auf Intel/AMD
+    ports:
+      - "27015:27015/tcp"       # Game + RCON (TCP)
+      - "27015:27015/udp"       # Game (UDP)
+    volumes:
+      - "${SERVER_STACK_DIR:-.}/data/cs2:/home/steam/cs2-dedicated"   # ~40–60 GB! vorher zuhause vorladen
+    environment:
+      - SRCDS_TOKEN=${CS2_GSLT_TOKEN:-}          # GSLT von steamcommunity.com/dev/managegameservers (App 730); für reines LAN optional
+      - CS2_SERVERNAME=${CS2_SERVERNAME:-LAN-Party CS2}
+      - CS2_PW=${CS2_PASSWORD:-}                 # Server-Passwort (leer = offen)
+      - CS2_RCONPW=${CS2_RCON_PASSWORD:-change-me}
+      - CS2_LAN=1                                # LAN-Modus (sv_lan 1)
+      - CS2_PORT=27015
+      - CS2_MAXPLAYERS=10
+      - CS2_GAMEALIAS=competitive                # competitive = game_type 0, game_mode 1
+      - CS2_STARTMAP=de_inferno
+      - CS2_BOT_QUOTA=3                          # Bots zum Warmspielen
+      - CS2_BOT_DIFFICULTY=1
+    mem_limit: 8g
+    restart: unless-stopped
